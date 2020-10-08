@@ -24,11 +24,13 @@ class CharacterRow extends StatelessWidget {
             ),
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.only(left: 12.0),
-          child: Text(
-            character.name,
-            style: TextStyle(fontSize: 16),
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.only(left: 12.0),
+            child: Text(
+              character.name,
+              style: TextStyle(fontSize: 16),
+            ),
           ),
         ),
       ],
